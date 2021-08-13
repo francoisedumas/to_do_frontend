@@ -1,6 +1,7 @@
 # RoR API
-## Introduction to Vuex frontend using RoR API
+## Create a todo app with VueJS frontend & RoR API for the backend
 
+<img width="1149" alt="Screenshot 2021-08-13 at 16 55 19" src="https://user-images.githubusercontent.com/33062224/129376658-9000b534-5c34-466c-b108-134a755e1cc8.png">
 
 ## Starting with basic models and controllers
  - create the app
@@ -13,8 +14,10 @@
 ### Vue create
 
 `vue create to_do_front`
+
 Select the next option
 `Manually select features`
+
 Then in the choices
 ◉ Choose Vue version
 ◉ Babel
@@ -26,17 +29,29 @@ Then in the choices
 ◉ Linter / Formatter
 ❯◉ Unit Testing
 ◯ E2E Testing
+
 Then select
 `3.x`
+
 Then
 `ESLint + Prettier`
+
 Then
 ◉ Lint on save
 ❯◉ Lint and fix on commit
+
 Then for testing framework
 `Jest`
+
 Then
 `In dedicated config files`
+
+```
+cd to_do_frontend
+git add . && git commit -m "To Do front Vue new app"
+gh repo create
+git push origin master
+```
 
 ### Vue App.vue
 
