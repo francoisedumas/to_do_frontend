@@ -1,6 +1,6 @@
 import axios from "axios";
 window.axios = axios;
-const api_url = "http://localhost:3000/api/v1/todos";
+const api_url = "https://todobackendror.herokuapp.com/api/v1/todos";
 
 const state = {
   todos: [],

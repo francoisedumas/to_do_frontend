@@ -3,6 +3,7 @@
 
 <img width="1149" alt="Screenshot 2021-08-13 at 16 55 19" src="https://user-images.githubusercontent.com/33062224/129376658-9000b534-5c34-466c-b108-134a755e1cc8.png">
 
+*Comment: At the very end of this Readme I'm changing the connexion from my localhost to my Heroku's hosted backend url*
 ## Starting with basic models and controllers
  - create the app
  - update App.vue
@@ -400,3 +401,7 @@ in the head of public/index.html file add your personnal Fontawesome Kit's Code
 ```html
 <script src="https://kit.fontawesome.com/02bad37339.js" crossorigin="anonymous"></script>
 ```
+
+### Getting the API from my Heroku's hosted backend
+
+in the file src/store/modules/todos.js I modified the api_url moving from my local host to `https://todobackendror.herokuapp.com/api/v1/todos` which is the freely hosted backend url from heroku.
