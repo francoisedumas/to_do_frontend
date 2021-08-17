@@ -5,11 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "node build/build.js",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "postinstall": "npm run build",
-    "start": "node server.js",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.21.1",
