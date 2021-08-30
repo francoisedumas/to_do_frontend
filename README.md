@@ -3,9 +3,13 @@
 
 <img width="1149" alt="Screenshot 2021-08-13 at 16 55 19" src="https://user-images.githubusercontent.com/33062224/129376658-9000b534-5c34-466c-b108-134a755e1cc8.png">
 
-*Comment 1: After cloning or forking run `npm install` and `npm run serve` in your terminal to start the app. Then as there is no seeds just create, and remove todo task. Enjoy! 😀*
+## Setup for fork and clone
 
-*Comment 2: At the very end of this Readme I'm explain how to change the connexion from my localhost to my Heroku's hosted backend url*
+The back-end can be found [here](:https://github.com/francoisedumas/to_do_backend)
+
+After cloning or forking run `npm install` and `npm run serve` in your terminal to start the app. Then as there is no seeds just create, and remove todo task. Enjoy! 😀
+
+*Comment: At the very end of this Readme I'm explain how to change the connexion from my localhost to my Heroku's hosted backend url*
 
 ## Starting with basic models and controllers
  - create the app
