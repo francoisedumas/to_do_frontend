@@ -5,7 +5,7 @@
 
 ## Setup for fork and clone
 
-The back-end can be found [here](:https://github.com/francoisedumas/to_do_backend)
+The back-end can be found [here](https://github.com/francoisedumas/to_do_backend)
 
 After cloning or forking run `npm install` and `npm run serve` in your terminal to start the app. Then as there is no seeds just create, and remove todo task. Enjoy! 😀
 
